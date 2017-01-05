@@ -1,0 +1,52 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : false,
+    "frameRate" : 60,
+    "noCache" : false,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+
+        "src/resource.js",
+        "src/global.js",
+        "src/Geometry.js",
+        "src/PhysicsBody.js",
+        "src/PhysicsManager.js",
+
+        "src/Module/ControllerModule.js",
+        "src/Module/PhysicsModelModule.js",
+
+
+
+        "src/GameScene/GameScene.js",
+        "src/GameScene/GameSceneModel.js",
+        "src/GameScene/GameSceneView.js",
+        "src/GameScene/Player.js",
+        "src/GameScene/PlayerModel.js",
+        "src/GameScene/Airplane.js",
+        "src/GameScene/AirplaneModel.js",
+        "src/GameScene/Boat.js",
+        "src/GameScene/BoatModel.js",
+        "src/GameScene/HotAirBalloon.js",
+        "src/GameScene/HotAirBalloonModel.js",
+        "src/GameScene/Cloud.js",
+        "src/GameScene/CloudModel.js",
+        "src/GameScene/Bird.js",
+        "src/GameScene/BirdModel.js",
+        "src/GameScene/Helicopter.js",
+        "src/GameScene/HelicopterModel.js",
+        "src/GameScene/PaperPlane.js",
+        "src/GameScene/PaperPlaneModel.js",
+
+        "src/GameOverScene/GameOverScene.js",
+        "src/GameOverScene/GameOverSceneModel.js",
+        "src/GameOverScene/GameOverSceneView.js"
+
+    ]
+}
